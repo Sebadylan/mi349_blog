@@ -4,25 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan Seba's Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .image-container {
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
+        .caption {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
-  </body>
-  </header>
-    <h1>Dylan Seba's Blog </h1>
-     </header>
-  <nav>
-    <ul>
-      <li>Blog Posts</li>
-      <li>About Me</li>
-      <li>Contact Me</li>
-    </ul>
-  </nav>
-  <section>
-    <article>
-        <h2>Fun weekend!</h2>
-          <p>Published on: <time datetime="2024-10-14">October 14, 2024</time></p>
-         <p>By: <span class="author">Dylan Seba</span></p>
-        <p>This weekend was super fun! My best friend from back home came up to visit me. We spent the whole day together just catching up, grabbing lunch and she ended up spending the night, since the commute from Detroit to East Lansing isnt necessarily an easy one.</p>
-            <img src="IMG_9678.JPG" alt="My best Friend Neeya" width="500">
-        <p>(My Best Friend, Neeya)</p>
-    </article>
-      
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to My Blog!</h1>
+        </header>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#blog-posts">Blog Posts</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+
+        <section class="image-container">
+            <img src="IMG_9678.JPG" alt="Image 1">
+            <div class="caption">OCTOBER 14TH, 2024. (MY BEST FRIEND NEEYA)</div>
+        </section>
+
+        <section class="image-container">
+            <img src="image2.jpg" alt="Image 2">
+            <div class="caption">Caption for Image 2</div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief introduction about yourself here.</p>
+        </section>
+
+        <section id="blog-posts">
+            <h2>Blog Posts</h2>
+            <p>Add links to your blog posts here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Provide contact details or a contact form here.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Blog.</p>
+    </footer>
+
+</body>
+</html>
+
