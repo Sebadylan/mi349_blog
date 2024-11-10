@@ -1,1 +1,246 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container to centralize content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Navigation Styling (Sticky Navigation) */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 60px; /* Sticky after header */
+    z-index: 5;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-right: 2px solid #ddd;
+    flex: 1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+/* Two-column Flexbox Layout */
+.two-column-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.sidebar-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 2px solid #ddd;
+}
+
+/* Three-column Flexbox Layout */
+.three-column-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.main-column {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.side-column {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Headings Styling */
+h2, h3 {
+    color: #007BFF;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:hover td {
+    background-color: #f1f1f1;
+}
+
+/* Image Section */
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Form Styling */
+form {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+form label {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    display: block;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Class Selector for Featured Blog Posts */
+.featured {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+/* ID Selector for Special Section (e.g. "blog-posts") */
+#blog-posts {
+    margin-top: 40px;
+    background-color: #eef;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Attribute Selector for form inputs with type "text" */
+input[type="text"] {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
 
